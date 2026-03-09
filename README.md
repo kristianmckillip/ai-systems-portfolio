@@ -21,17 +21,27 @@ The projects are organized as layers of a broader AI systems stack.
 
 ## System Overview
 
-The portfolio consists of several projects that build on each other, forming a layered AI systems stack.
+The portfolio is organized into several projects that build on each other, forming a layered AI systems stack.
 
-Project 01 establishes the local AI workstation environment.
+**Project 01 — Local AI Workstation Architecture**  
+[View documentation](docs/project_01_local_ai_workstation.md)  
+Establishes the GPU-accelerated local AI workstation used to run diffusion models and AI tooling.
 
-Project 02 introduces agent-based system control through OpenCLAW and the Praxis assistant.
+**Project 02 — OpenCLAW / Praxis AI Operations System**  
+[View documentation](docs/project_02_openclaw_praxis_system.md)  
+Introduces a governance-driven AI operations assistant designed for verification-first infrastructure troubleshooting.
 
-Project 03 documents a structured operational framework for managing diffusion models with InvokeAI.
+**Project 03 — Diffusion Model Operations Framework**  
+[View documentation](docs/project_03_diffusion_operations_framework.md)  
+Documents a structured operational doctrine for managing Stable Diffusion models and generation workflows.
 
-Project 04 introduces a multi-stage prompt orchestration engine used to stabilize and optimize generative outputs.
+**Project 04 — Prompt Orchestration Engine**  
+[View documentation](docs/project_04_prompt_orchestration_engine.md)  
+A multi-stage prompt processing system designed to stabilize generative outputs across diffusion models.
 
-Project 05 documents AI agent systems developed for planning, prompt optimization, and technical system support.
+**Project 05 — AI Agent Systems & Behavioral Governance**  
+[View documentation](docs/project_05_ai_agent_systems_governance.md)  
+Explores specialized AI assistants used for planning, prompt optimization, and technical support workflows.
 
 ---
 
