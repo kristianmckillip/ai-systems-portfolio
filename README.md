@@ -1,6 +1,6 @@
 # AI Systems Portfolio
 Kristian McKillip  
-AI Systems & Automation Engineer
+AI Systems Engineer
 
 This repository documents AI systems and operational frameworks built to support reliable local generative AI workflows on consumer hardware.
 
@@ -16,6 +16,52 @@ The portfolio demonstrates experience in:
 • operational documentation of complex AI systems  
 
 The projects are organized as layers of a broader AI systems stack.
+
+---
+
+## System Architecture
+
+The portfolio represents a layered AI systems stack developed for operating generative AI tools locally.
+
+
+AI Systems Portfolio Architecture
+
+┌───────────────────────────────────────────┐
+│ Project 05 │
+│ AI Agent Systems & Behavioral Governance │
+│ Hale • Lyra • Nova • Praxis │
+└───────────────────────────────────────────┘
+▲
+│
+┌───────────────────────────────────────────┐
+│ Project 04 │
+│ Prompt Orchestration Engine │
+│ Structured prompt translation pipeline │
+└───────────────────────────────────────────┘
+▲
+│
+┌───────────────────────────────────────────┐
+│ Project 03 │
+│ Diffusion Operations Framework │
+│ InvokeAI workflow doctrine │
+└───────────────────────────────────────────┘
+▲
+│
+┌───────────────────────────────────────────┐
+│ Project 02 │
+│ OpenCLAW / Praxis AI Operations System │
+│ LLM-assisted operational control │
+└───────────────────────────────────────────┘
+▲
+│
+┌───────────────────────────────────────────┐
+│ Project 01 │
+│ Local AI Workstation Architecture │
+│ Hardware + runtime environment │
+└───────────────────────────────────────────┘
+
+
+Each project builds on the layer beneath it, forming a complete operational environment for running AI systems locally on constrained hardware.
 
 ---
 
@@ -65,7 +111,7 @@ Topics covered include:
 
 Development of a lightweight AI control system built around an assistant agent named Praxis.
 
-The system integrates API-based LLM access with structured system prompts to provide command-line–style operational support.
+The system integrates API-based LLM access with structured system prompts to provide command-line oriented operational support.
 
 Key features:
 
@@ -151,6 +197,36 @@ Windows 11
 • local diffusion model management  
 
 The system was intentionally designed to operate within **limited VRAM constraints**, requiring careful optimization of model selection, generation pipelines, and workflow configuration.
+
+---
+
+## Key Skills Demonstrated
+
+This portfolio demonstrates practical experience across several areas of modern AI systems engineering:
+
+**AI Systems Engineering**
+
+• local AI infrastructure design  
+• GPU-aware compute environments  
+• VRAM-constrained generative pipelines  
+
+**Generative AI Operations**
+
+• diffusion workflow architecture  
+• prompt engineering systems  
+• model and asset lifecycle management  
+
+**AI Agent Architecture**
+
+• structured prompt frameworks  
+• role-based conversational agents  
+• behavioral governance for AI assistants  
+
+**Operational Engineering**
+
+• technical documentation of complex systems  
+• procedural frameworks for AI operations  
+• reproducible development environments  
 
 ---
 
