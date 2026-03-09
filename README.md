@@ -23,43 +23,29 @@ The projects are organized as layers of a broader AI systems stack.
 
 The portfolio represents a layered AI systems stack developed for operating generative AI tools locally.
 
-
+```
 AI Systems Portfolio Architecture
 
-┌───────────────────────────────────────────┐
-│ Project 05 │
-│ AI Agent Systems & Behavioral Governance │
-│ Hale • Lyra • Nova • Praxis │
-└───────────────────────────────────────────┘
-▲
-│
-┌───────────────────────────────────────────┐
-│ Project 04 │
-│ Prompt Orchestration Engine │
-│ Structured prompt translation pipeline │
-└───────────────────────────────────────────┘
-▲
-│
-┌───────────────────────────────────────────┐
-│ Project 03 │
-│ Diffusion Operations Framework │
-│ InvokeAI workflow doctrine │
-└───────────────────────────────────────────┘
-▲
-│
-┌───────────────────────────────────────────┐
-│ Project 02 │
-│ OpenCLAW / Praxis AI Operations System │
-│ LLM-assisted operational control │
-└───────────────────────────────────────────┘
-▲
-│
-┌───────────────────────────────────────────┐
-│ Project 01 │
-│ Local AI Workstation Architecture │
-│ Hardware + runtime environment │
-└───────────────────────────────────────────┘
-
+Project 05
+AI Agent Systems & Behavioral Governance
+Hale • Lyra • Nova • Praxis
+↑
+Project 04
+Prompt Orchestration Engine
+Structured prompt translation pipeline
+↑
+Project 03
+Diffusion Operations Framework
+InvokeAI workflow doctrine
+↑
+Project 02
+OpenCLAW / Praxis AI Operations System
+LLM-assisted operational control
+↑
+Project 01
+Local AI Workstation Architecture
+Hardware + runtime environment
+```
 
 Each project builds on the layer beneath it, forming a complete operational environment for running AI systems locally on constrained hardware.
 
@@ -202,7 +188,7 @@ The system was intentionally designed to operate within **limited VRAM constrain
 
 ## Key Skills Demonstrated
 
-This portfolio demonstrates practical experience across several areas of modern AI systems engineering:
+This portfolio demonstrates practical experience across several areas of modern AI systems engineering.
 
 **AI Systems Engineering**
 
