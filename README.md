@@ -1,40 +1,43 @@
 # AI Systems Portfolio
-Kristian McKillip
+Kristian McKillip  
+AI Systems & Automation Engineer
 
-This repository documents several AI systems and operational frameworks developed for running and managing local generative AI environments.
+This repository documents AI systems and operational frameworks built to support reliable local generative AI workflows on consumer hardware.
 
-The focus of these projects is not model training, but **system architecture, operational reliability, and workflow engineering for AI systems running on consumer hardware**.
+The projects emphasize system architecture, operational reliability, and workflow engineering rather than model training.
 
 The portfolio demonstrates experience in:
 
 • local AI infrastructure  
-• diffusion model workflow design  
-• AI agent prompt architecture  
-• model lifecycle governance  
-• prompt engineering systems  
-• operational documentation of complex AI tools
+• AI operations assistant design  
+• diffusion workflow engineering  
+• prompt orchestration systems  
+• AI agent architecture and governance  
+• operational documentation of complex AI systems  
+
+The projects are organized as layers of a broader AI systems stack.
 
 ---
 
-# System Overview
+## System Overview
 
-The portfolio is organized into several projects that build on each other.
+The portfolio consists of several projects that build on each other, forming a layered AI systems stack.
 
 Project 01 establishes the local AI workstation environment.
 
-Project 02 introduces agent-based system control through OpenClaw and the Praxis assistant.
+Project 02 introduces agent-based system control through OpenCLAW and the Praxis assistant.
 
 Project 03 documents a structured operational framework for managing diffusion models with InvokeAI.
 
 Project 04 introduces a multi-stage prompt orchestration engine used to stabilize and optimize generative outputs.
 
-Project 05 documents AI agent systems built for planning, prompt optimization, and technical system support.
+Project 05 documents AI agent systems developed for planning, prompt optimization, and technical system support.
 
 ---
 
-# Projects
+## Projects
 
-## Project 01 — Local AI Workstation Architecture
+### Project 01 — Local AI Workstation Architecture
 
 Design and configuration of a local AI workstation capable of running generative models on constrained hardware.
 
@@ -44,26 +47,26 @@ Topics covered include:
 • Python virtual environments  
 • CUDA compatibility management  
 • diffusion model runtime environments  
-• workflow isolation and dependency control
+• workflow isolation and dependency control  
 
 ---
 
-## Project 02 — OpenClaw Praxis System
+### Project 02 — OpenCLAW / Praxis AI Operations System
 
 Development of a lightweight AI control system built around an assistant agent named Praxis.
 
-The system integrates API-based LLM access with structured system prompts to provide command-line-adjacent operational support.
+The system integrates API-based LLM access with structured system prompts to provide command-line–style operational support.
 
 Key features:
 
 • assistant-driven command execution support  
 • behavioral prompt architecture  
 • system awareness responses  
-• minimal-interruption design philosophy
+• minimal-interruption design philosophy  
 
 ---
 
-## Project 03 — Diffusion Model Operations Framework
+### Project 03 — Diffusion Model Operations Framework
 
 A structured operational doctrine for running Stable Diffusion workflows locally using InvokeAI.
 
@@ -77,11 +80,11 @@ Major components include:
 • repeatable generation pipelines  
 • failure diagnosis procedures  
 • system expansion rules  
-• asset lifecycle governance
+• asset lifecycle governance  
 
 ---
 
-## Project 04 — Prompt Orchestration Engine
+### Project 04 — Prompt Orchestration Engine
 
 A multi-tier prompt processing system designed to convert high-level scene descriptions into stable generative prompts for diffusion models.
 
@@ -91,26 +94,26 @@ Capabilities include:
 • tag generation systems  
 • prompt translation pipelines  
 • prompt restructuring and stabilization  
-• image-to-prompt extraction workflows
+• image-to-prompt extraction workflows  
 
 The system enables consistent results across models with limited VRAM.
 
 ---
 
-## Project 05 — AI Agent Architecture
+### Project 05 — AI Agent Systems & Behavioral Governance
 
 Development of several specialized AI assistants including:
 
 • Hale — conversational support system  
 • Lyra — prompt optimization framework  
 • Nova — generative AI installation assistant  
-• Praxis — system operations assistant
+• Praxis — system operations assistant  
 
-These agents demonstrate advanced prompt architecture and role-based AI behavior design.
+These agents demonstrate structured prompt architecture, role-based AI behavior design, and governed conversational systems.
 
 ---
 
-# Hardware Environment
+## Hardware Environment
 
 Primary development system
 
@@ -130,33 +133,33 @@ Memory
 Operating System  
 Windows 11
 
-Core software tools
+### Core Software Stack
 
 • InvokeAI  
 • ComfyUI  
-• Python environments  
-• local model management workflows
+• Python virtual environments  
+• local diffusion model management  
 
-The system was intentionally designed to operate within **limited VRAM constraints**, requiring careful optimization of workflows and model usage.
+The system was intentionally designed to operate within **limited VRAM constraints**, requiring careful optimization of model selection, generation pipelines, and workflow configuration.
 
 ---
 
-# Purpose of This Portfolio
+## Purpose of This Portfolio
 
-This repository serves as documentation of real-world experimentation and engineering work focused on making modern AI tools usable on local hardware.
+This repository documents practical engineering work focused on making modern AI tools usable on local hardware.
 
 The projects emphasize:
 
 • operational stability  
 • system understanding  
 • reproducible workflows  
-• disciplined documentation
+• disciplined documentation  
 
-Rather than ad-hoc experimentation.
+with the goal of treating AI systems as structured engineering environments rather than ad-hoc experimentation tools.
 
 ---
 
-# Author
+## Author
 
 Kristian McKillip
 
