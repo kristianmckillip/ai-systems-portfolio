@@ -14,6 +14,16 @@ The final six-panel sign-off covered workspace save, relaunch, and clean exit. E
 
 [Read the ClearSpace case study](docs/project_06_clearspace_personal.md)
 
+## Android app beta: Veridian
+
+Google Play internal beta • Android • Release 1 (0.9.0) • September 28, 2026
+
+Veridian is a to-do app designed around realistic planning on low-capacity days. I shaped the product requirements, priorities, and testing, with AI-assisted development supporting implementation.
+
+The app reached Google Play internal testing, making the Android build available to invited testers. Early feedback focuses on installation, first launch, confusing or broken behavior, and useful changes.
+
+[Read the Veridian case study](docs/project_07_veridian_android.md)
+
 ## Local AI systems and operational projects
 
 These five projects document the local infrastructure, operating procedures, prototypes, and agent designs developed before ClearSpace.
