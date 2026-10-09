@@ -24,6 +24,16 @@ The app reached Google Play internal testing, making the Android build available
 
 [Read the Veridian case study](docs/project_07_veridian_android.md)
 
+## Vesper · Desktop AI Companion
+
+**Working personal application · Windows · Ongoing development**
+
+Vesper combines an animated desktop companion with conversational memory, local and cloud model routing, speech, and local image generation. Its C# application includes scoped tool permissions, bounded browser research, and a read-only Codex integration.
+
+I directed product requirements, interaction design, priorities, and hands-on testing, with AI-assisted implementation. Working versions and experimental candidates are tracked separately.
+
+[Read the Vesper case study](docs/project_08_vesper_desktop_companion.md)
+
 ## Local AI systems and operational projects
 
 These five projects document the local infrastructure, operating procedures, prototypes, and agent designs developed before ClearSpace.
