@@ -1,240 +1,51 @@
-# AI Systems Portfolio
-Kristian McKillip  
-AI Systems Engineer
+# Kristian McKillip | AI Systems & Software Portfolio
 
-This repository documents AI systems and operational frameworks built to support reliable local generative AI workflows on consumer hardware.
+I build local AI workflows, governed assistants, and practical software with AI-assisted development. This portfolio documents the problems, implementation decisions, testing, and limits behind that work.
 
-The projects emphasize system architecture, operational reliability, and workflow engineering rather than model training.
+## Featured project: ClearSpace Personal v1
 
-The portfolio demonstrates experience in:
+**Completed personal release · Windows · VITURE glasses · Signed off October 7, 2026**
 
-• local AI infrastructure  
-• AI operations assistant design  
-• diffusion workflow engineering  
-• prompt orchestration systems  
-• AI agent architecture and governance  
-• operational documentation of complex AI systems  
+ClearSpace is a spatial multi-panel workspace for Windows and VITURE glasses. The signed-off configuration uses six panels: one primary panel and five virtual panels.
 
-The projects are organized as layers of a broader AI systems stack.
+I defined requirements, prioritized the release scope, and performed live testing, with AI-assisted coding supporting implementation.
 
----
+The final six-panel sign-off covered workspace save, relaunch, and clean exit. Earlier development testing covered presentation persistence, group-distance apply/undo, FitSource, keyboard panel navigation, stop and return-to-primary controls, and settings capture pause/restore. The case study separates these test stages. The desktop release includes a custom icon.
 
-## System Architecture
+[Read the ClearSpace case study](docs/project_06_clearspace_personal.md)
 
-The portfolio represents a layered AI systems stack developed for operating generative AI tools locally.
+## Local AI systems and operational projects
 
-```
-AI Systems Portfolio Architecture
+These five projects document the local infrastructure, operating procedures, prototypes, and agent designs developed before ClearSpace.
 
-Project 05
-AI Agent Systems & Behavioral Governance
-Hale • Lyra • Nova • Praxis
-↑
-Project 04
-Prompt Orchestration Engine
-Structured prompt translation pipeline
-↑
-Project 03
-Diffusion Operations Framework
-InvokeAI workflow doctrine
-↑
-Project 02
-OpenCLAW / Praxis AI Operations System
-LLM-assisted operational control
-↑
-Project 01
-Local AI Workstation Architecture
-Hardware + runtime environment
-```
+### 01 · Local AI Workstation Architecture
+Configured and stabilized an RTX 4060 laptop environment for local generative AI. The write-up covers InvokeAI, ComfyUI, Ollama, isolated Python environments, CUDA mismatch troubleshooting, dependency recovery, and model selection within hardware limits.
 
-Each project builds on the layer beneath it, forming a complete operational environment for running AI systems locally on constrained hardware.
+[Read the workstation project](docs/project_01_local_ai_workstation.md)
 
----
+### 02 · OpenCLAW / Praxis AI Operations System
+Deployed a Discord-connected operations assistant using a local OpenCLAW gateway and Gemini API inference. Its human-in-the-loop workflow uses commands run by the user and returned terminal output to guide troubleshooting.
 
-## System Overview
+[Read the Praxis project](docs/project_02_openclaw_praxis_system.md)
 
-The portfolio is organized into several projects that build on each other, forming a layered AI systems stack.
+### 03 · Diffusion Model Operations Framework
+Developed an InvokeAI operating framework for an 8 GB VRAM workstation. It covers model intake, LoRA classification, prompt structure, repeatable generation workflows, failure diagnosis, canvas geometry, and asset cleanup.
 
-**Project 01 — Local AI Workstation Architecture**  
-[View documentation](docs/project_01_local_ai_workstation.md)  
-Establishes the GPU-accelerated local AI workstation used to run diffusion models and AI tooling.
+[Read the diffusion operations project](docs/project_03_diffusion_operations_framework.md)
 
-**Project 02 — OpenCLAW / Praxis AI Operations System**  
-[View documentation](docs/project_02_openclaw_praxis_system.md)  
-Introduces a governance-driven AI operations assistant designed for verification-first infrastructure troubleshooting.
+### 04 · Prompt Orchestration Engine
+Built a prototype on Emergent for staged prompt construction and model adaptation. The documented workflow extracts visual attributes from reference images, turns them into structured reusable prompt components, and adapts assembled prompts for diffusion model families.
 
-**Project 03 — Diffusion Model Operations Framework**  
-[View documentation](docs/project_03_diffusion_operations_framework.md)  
-Documents a structured operational doctrine for managing Stable Diffusion models and generation workflows.
+[Read the prompt orchestration project](docs/project_04_prompt_orchestration_engine.md)
 
-**Project 04 — Prompt Orchestration Engine**  
-[View documentation](docs/project_04_prompt_orchestration_engine.md)  
-A multi-stage prompt processing system designed to stabilize generative outputs across diffusion models.
+### 05 · AI Agent Systems & Behavioral Governance
+Developed specialized assistant roles for operations, prompt optimization, installation support, planning, and reflective dialogue. The documentation explains the behavioral rules and interaction patterns for Praxis, Lyra, Nova, Veridian, and Hale.
 
-**Project 05 — AI Agent Systems & Behavioral Governance**  
-[View documentation](docs/project_05_ai_agent_systems_governance.md)  
-Explores specialized AI assistants used for planning, prompt optimization, and technical support workflows.
+[Read the agent governance project](docs/project_05_ai_agent_systems_governance.md)
 
----
+## Development context
 
-## Projects
+The local AI projects were documented on a Windows 11 workstation with a Ryzen 5 7535HS, RTX 4060 Laptop GPU with 8 GB VRAM, and 32 GB DDR5 RAM. InvokeAI was the primary diffusion interface; ComfyUI supported experimentation.
 
-### Project 01 — Local AI Workstation Architecture
+Each project page provides its own technical context. The portfolio currently presents project documentation; source code, test artifacts, and demonstrations are included only where explicitly linked.
 
-Design and configuration of a local AI workstation capable of running generative models on constrained hardware.
-
-Topics covered include:
-
-• GPU-aware system configuration  
-• Python virtual environments  
-• CUDA compatibility management  
-• diffusion model runtime environments  
-• workflow isolation and dependency control  
-
----
-
-### Project 02 — OpenCLAW / Praxis AI Operations System
-
-Development of a lightweight AI control system built around an assistant agent named Praxis.
-
-The system integrates API-based LLM access with structured system prompts to provide command-line oriented operational support.
-
-Key features:
-
-• assistant-driven command execution support  
-• behavioral prompt architecture  
-• system awareness responses  
-• minimal-interruption design philosophy  
-
----
-
-### Project 03 — Diffusion Model Operations Framework
-
-A structured operational doctrine for running Stable Diffusion workflows locally using InvokeAI.
-
-The framework introduces aviation-style procedural discipline to generative systems.
-
-Major components include:
-
-• model intelligence documentation  
-• asset classification systems  
-• prompt architecture doctrine  
-• repeatable generation pipelines  
-• failure diagnosis procedures  
-• system expansion rules  
-• asset lifecycle governance  
-
----
-
-### Project 04 — Prompt Orchestration Engine
-
-A multi-tier prompt processing system designed to convert high-level scene descriptions into stable generative prompts for diffusion models.
-
-Capabilities include:
-
-• structured prompt assembly  
-• tag generation systems  
-• prompt translation pipelines  
-• prompt restructuring and stabilization  
-• image-to-prompt extraction workflows  
-
-The system enables consistent results across models with limited VRAM.
-
----
-
-### Project 05 — AI Agent Systems & Behavioral Governance
-
-Development of several specialized AI assistants including:
-
-• Hale — conversational support system  
-• Lyra — prompt optimization framework  
-• Nova — generative AI installation assistant  
-• Praxis — system operations assistant  
-
-These agents demonstrate structured prompt architecture, role-based AI behavior design, and governed conversational systems.
-
----
-
-## Hardware Environment
-
-Primary development system
-
-Machine  
-MSI Thin A15 B7VF laptop
-
-CPU  
-AMD Ryzen 5 7535HS
-
-GPU  
-NVIDIA RTX 4060 Laptop GPU  
-8 GB VRAM
-
-Memory  
-32 GB DDR5
-
-Operating System  
-Windows 11
-
-### Core Software Stack
-
-• InvokeAI  
-• ComfyUI  
-• Python virtual environments  
-• local diffusion model management  
-
-The system was intentionally designed to operate within **limited VRAM constraints**, requiring careful optimization of model selection, generation pipelines, and workflow configuration.
-
----
-
-## Key Skills Demonstrated
-
-This portfolio demonstrates practical experience across several areas of modern AI systems engineering.
-
-**AI Systems Engineering**
-
-• local AI infrastructure design  
-• GPU-aware compute environments  
-• VRAM-constrained generative pipelines  
-
-**Generative AI Operations**
-
-• diffusion workflow architecture  
-• prompt engineering systems  
-• model and asset lifecycle management  
-
-**AI Agent Architecture**
-
-• structured prompt frameworks  
-• role-based conversational agents  
-• behavioral governance for AI assistants  
-
-**Operational Engineering**
-
-• technical documentation of complex systems  
-• procedural frameworks for AI operations  
-• reproducible development environments  
-
----
-
-## Purpose of This Portfolio
-
-This repository documents practical engineering work focused on making modern AI tools usable on local hardware.
-
-The projects emphasize:
-
-• operational stability  
-• system understanding  
-• reproducible workflows  
-• disciplined documentation  
-
-with the goal of treating AI systems as structured engineering environments rather than ad-hoc experimentation tools.
-
----
-
-## Author
-
-Kristian McKillip
-
-AI Systems Builder  
-Local AI Infrastructure  
-Prompt Engineering Systems
